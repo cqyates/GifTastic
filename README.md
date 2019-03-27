@@ -1,0 +1,2 @@
+# GifTastic
+an ajax application
