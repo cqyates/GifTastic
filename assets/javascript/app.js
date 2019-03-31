@@ -2,7 +2,7 @@ $(function(){
     populateButtons(topics,'searchButton','#buttonsArea');
 })
 
-var topics = ["Eyeroll", "Ugh", "Face Palm"];
+var topics = ["Celebrate", "Happy Birthday", "Birthday Cake"];
 
 function populateButtons(topics,classToAdd,areaToAddTo){
     $(areaToAddTo).empty();
@@ -18,7 +18,7 @@ function populateButtons(topics,classToAdd,areaToAddTo){
 $(document).on('click','.searchButton',function(){
     $('#searches').empty();
     var type = $(this).data('type');
-    var queryUrl = 'https://api.giphy.com/v1/gifs/search?q='+type+'&api_key=LCBBepXycXgqeV7p4QbDSb0vP7bVbUIX&=10';
+    var queryUrl = 'https://api.giphy.com/v1/gifs/search?q='+type+'&api_key=LCBBepXycXgqeV7p4QbDSb0vP7bVbUIX&=10&rating=G';
     $.ajax({url:queryUrl, method:'GET'})
         .done(function(response){
             for (var i = 0; i < response.data.length; i++){
