@@ -2,7 +2,7 @@ $(function(){
     populateButtons(topics,'searchButton','#buttonsArea');
 })
 
-var topics = ["Celebrate", "Happy Birthday", "Birthday Cake"];
+var topics = ["Celebrate", "Happy Birthday", "Birthday Cake", "Party", "Fun Times"];
 
 function populateButtons(topics,classToAdd,areaToAddTo){
     $(areaToAddTo).empty();

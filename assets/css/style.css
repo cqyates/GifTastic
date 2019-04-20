@@ -1,3 +1,31 @@
 body {
     background-color: rgb(223, 178, 212);
 }
+
+.container {
+    border-radius: 20px; 
+    text-align: center;
+    display: flex;
+}
+#titleBar {
+    background-color: white;
+}
+.searchButton {
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(223, 178, 212, 0.515);
+    flex-flow: row wrap;
+}
+h1 {
+    font-family: 'lobster', cursive;
+    font-size: 40pt;
+}
+#addSearch {
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgba(223, 178, 212, 0.515);
+}
+.searchImage {
+    border-radius: 20px;
+    width: 500px;
+}
