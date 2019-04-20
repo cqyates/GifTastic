@@ -8,8 +8,7 @@ https://cqyates.github.io/GifTastic/
 
 
 To Do List...
-1. Put the search buttons into a container div
-2. Create Header and Footer
-3. Add Birthday Favicon
-5. Make a Stylish Title
-6. add style to the buttons
+1. Add Footer
+2. Add Birthday Favicon
+3. Get Input Field to Clear Out on Submit Click
+4. Change the Font of the p element
