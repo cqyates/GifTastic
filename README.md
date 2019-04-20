@@ -12,3 +12,4 @@ To Do List...
 2. Add Birthday Favicon
 3. Get Input Field to Clear Out on Submit Click
 4. Change the Font of the p element
+5. Get Gifs to Appear in a Grid format
