@@ -1,7 +1,8 @@
+//This function makes buttons, adds id="buttonsArea", class="searchButton" appends the items in the topics array
 $(function(){
     populateButtons(topics,'searchButton','#buttonsArea');
 })
-
+//array of button topics at start of application
 var topics = ["Celebrate", "Happy Birthday", "Birthday Cake", "Party", "Fun Times"];
 
 function populateButtons(topics,classToAdd,areaToAddTo){
@@ -19,12 +20,14 @@ $(document).on('click','.searchButton',function(){
     $('#searches').empty();
     var type = $(this).data('type');
     var queryUrl = 'https://api.giphy.com/v1/gifs/search?q='+type+'&api_key=LCBBepXycXgqeV7p4QbDSb0vP7bVbUIX&=10&rating=G';
-    $.ajax({url:queryUrl, method:'GET'})
-        .done(function(response){
+    $.ajax({
+        url:queryUrl,
+        method:'GET'}).done(function(response){
             for (var i = 0; i < response.data.length; i++){
+                //create spot for giphy results
                 var searchDiv = $('<div class="search-item">');
                 var rating = response.data[i].rating;
-                var p = $('<p>').text('Rating: '+rating);
+                var ratingP = $('<p>').text('Rating: '+rating);
                 var animated = response.data[i].images.fixed_height.url;
                 var still = response.data[i].images.fixed_height_still.url;
                 var image = $('<img>');
@@ -33,7 +36,7 @@ $(document).on('click','.searchButton',function(){
                 image.attr('data-animated', animated);
                 image.attr('data-state','still');
                 image.addClass('searchImage');
-                searchDiv.prepend(p);
+                searchDiv.prepend(ratingP);
                 searchDiv.prepend(image);
                 $('#searches').prepend(searchDiv);
                 
@@ -56,11 +59,10 @@ $(document).on('click','.searchImage',function(){
 })
 
 $('#addSearch').on('click', function(){
-    var newSearch = $('input').eq(0).val();
+    var newSearch = $('#search-input').eq(0).val();
     topics.push(newSearch);
     populateButtons(topics,'searchButton','#buttonsArea');
     return false;
 
 })
-
 
