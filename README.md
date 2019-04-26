@@ -6,8 +6,7 @@ The gifs have data attributes with allows them to load in their still state and 
 
 https://cqyates.github.io/GifTastic/
 
-
-To Do List...
+##To Do List...
 1. Add Footer
 2. Add Birthday Favicon
 3. Get Input Field to Clear Out on Submit Click
