@@ -8,6 +8,5 @@ https://cqyates.github.io/GifTastic/
 
 ##To Do List...
 1. Add Birthday Favicon
-2. Get Input Field to Clear Out on Submit Click
-3. Solve Empty Button Issue
-4. Clean Up Code/Comment Out
+2. Solve Empty Button Issue
+3. Clean Up Code/Comment Out
