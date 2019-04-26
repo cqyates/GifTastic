@@ -25,7 +25,7 @@ $(document).on('click','.searchButton',function(){
         method:'GET'}).done(function(response){
             for (var i = 0; i < response.data.length; i++){
                 //create spot for giphy results
-                var searchDiv = $('<div class="search-item">');
+                var searchDiv = $('<div class = "col-xs-5">');
                 var rating = response.data[i].rating;
                 var ratingP = $('<p>').text('Rating: '+rating);
                 var animated = response.data[i].images.fixed_height.url;

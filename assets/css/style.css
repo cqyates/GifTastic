@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(223, 178, 212);
+    background-image: linear-gradient(to right, rgb(235, 213, 230), rgb(191, 151, 181));
 }
 
 .container {
@@ -9,19 +9,35 @@ body {
 }
 #titleBar {
     background-color: white;
+    box-shadow: 10px 10px 5px rgb(60, 58, 58);
 }
 .searchButton {
     border-radius: 20px;
     margin: 5px;
     background-color: rgb(223, 178, 212, 0.515);
     flex-flow: row wrap;
+    box-shadow: 5px 5px 5px rgb(60, 58, 58);
 }
 h1 {
     font-family: 'lobster', cursive;
     font-size: 40pt;
 }
+h6 {
+    font-family: 'lobster', cursive;
+    font-size: 18pt;
+}
 #addSearch {
     border-radius: 20px;
     margin: 5px;
     background-color: rgba(223, 178, 212, 0.515);
+    box-shadow: 5px 5px 5px rgb(60, 58, 58);
+}
+img {
+    margin: 10px;
+    border-radius: 20pt;
+} 
+#results {
+    display: flex;
+    text-align: center;
+    margin: 20px;
 }
