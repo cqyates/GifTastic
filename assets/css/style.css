@@ -35,6 +35,7 @@ h6 {
 img {
     margin: 10px;
     border-radius: 20pt;
+    box-shadow: 5px 5px 5px rgb(60, 58, 58);
 } 
 #results {
     display: flex;
@@ -44,4 +45,14 @@ img {
 
 #searches {
     margin: 40px;
+}
+.footer {
+	background: rgb(55, 54, 54, .70);
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    position: fixed;
+    bottom: 0px;
+    margin: 10px;
 }
