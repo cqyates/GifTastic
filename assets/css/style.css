@@ -9,7 +9,7 @@ body {
 }
 #titleBar {
     background-color: white;
-    box-shadow: 10px 10px 5px rgb(60, 58, 58);
+    box-shadow: 7px 8px 5px rgb(60, 58, 58);
 }
 .searchButton {
     border-radius: 20px;
@@ -40,4 +40,8 @@ img {
     display: flex;
     text-align: center;
     margin: 20px;
+}
+
+#searches {
+    margin: 40px;
 }
