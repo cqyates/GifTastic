@@ -60,6 +60,7 @@ $(document).on('click','.searchImage',function(){
 
 $('#addSearch').on('click', function(){
     var newSearch = $('#search-input').eq(0).val();
+    $("#search-input").val(" ");
     topics.push(newSearch);
     populateButtons(topics,'searchButton','#buttonsArea');
     return false;
