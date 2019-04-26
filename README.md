@@ -6,8 +6,6 @@ The gifs have data attributes with allows them to load in their still state and 
 
 https://cqyates.github.io/GifTastic/
 
-<img src="https://screenshots.firefox.com/SQCX8e5FJDcAULKQ/cqyates.github.io">
-
 ##To Do List...
 1. Add Footer
 2. Add Birthday Favicon
