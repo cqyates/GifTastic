@@ -6,7 +6,3 @@ The gifs have data attributes with allows them to load in their still state and 
 
 https://cqyates.github.io/GifTastic/
 
-##To Do List...
-1. Add Birthday Favicon
-2. Solve Empty Button Issue
-3. Clean Up Code/Comment Out
