@@ -6,4 +6,5 @@ The gifs have data attributes with allows them to load in their still state and 
 
 https://cqyates.github.io/GifTastic/
 
-![GifTastic Screenshot](/assets/images/Screenshot-2019-07-21-15.26.31.png)
+![GifTastic Screenshot](https://github.com/cqyates/GifTastic/blob/master/assets/images/Screenshot-2019-07-21-15.26.31.png)
+
